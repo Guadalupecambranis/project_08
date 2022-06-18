@@ -1,0 +1,33 @@
+.navbar {
+    height: 100%;
+}
+
+.navbar ul {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    flex-flow: column;
+    list-style: none;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    background-color: violet;
+}
+
+.navbar ul li {
+    padding-bottom: 2vh;
+}
+
+@media only screen and (min-device-width: 820px) {
+   .navbar ul {
+        flex-flow: row;
+        align-items: flex-start;
+        justify-content: flex-end;
+        padding-top: 2vh;
+        height: auto;
+   }
+
+   .navbar ul li {
+        margin-left: 2vw;
+   }
+}
